@@ -1,0 +1,27 @@
+@import '../../styles/colors'
+.sidebar
+  width: 20%;
+  max-width: 200px;
+  min-height: 1000px;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  box-shadow: 1px 0 0 0px #f9f9f9;
+  &__item
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+    cursor: pointer;
+    &--current
+      background: #e7e7e7;
+
+  &__icon
+    width: 35px;
+    height: auto;
+    margin-right: 20px;
+
+  &__text
+    font-size: 16px;
+    line-height: 20px;
+
+.sidebar__item > button
+  min-height: 80px;
